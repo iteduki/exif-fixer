@@ -9,6 +9,6 @@ current = DateTime.now
 files.each_with_index do |file, i|
   p file
   photo = MiniExiftool.new file
-  photo.date_time_original = current + Rational(i, 24 * 60) # 1分後
+  photo.date_time_original = current + Rational(i, 24 * 60) # i分後
   photo.save
 end
