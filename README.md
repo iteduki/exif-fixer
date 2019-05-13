@@ -4,7 +4,7 @@
 
 `brew install exiftool`
 
-`gem install mini_exiftool`
+`bundle install`
 
 ## 実行
 
