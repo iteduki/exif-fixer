@@ -2,7 +2,7 @@
 
 require 'mini_exiftool'
 
-files = Dir.glob('images/*{jpg,jpeg,png}')
+files = Dir.glob('images/*{jpg,jpeg,png}').sort
 p files.count
 
 current = DateTime.now
