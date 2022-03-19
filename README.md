@@ -15,3 +15,8 @@
 ### 実行後にimageディレクトリを開くだけのシェル
 
 `. start.sh`
+
+
+## dockerの場合
+- `docker build -t exif-fixer .`
+- `docker run exif-fixer`
