@@ -18,5 +18,4 @@
 
 
 ## dockerの場合
-- `docker build -t exif-fixer .`
-- `docker run exif-fixer`
+- `docke-compose up`

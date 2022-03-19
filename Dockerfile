@@ -8,6 +8,3 @@ RUN apk add exiftool
 WORKDIR /usr/src/app
 
 RUN gem install mini_exiftool
-COPY ./ ./
-
-CMD ["ruby", "code.rb"]

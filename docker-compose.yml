@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    command: ruby code.rb
+    volumes:
+      - .:/usr/src/app
