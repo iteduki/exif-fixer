@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  web:
+  script:
     build: .
     command: ruby code.rb
     volumes:
