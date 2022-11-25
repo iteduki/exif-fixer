@@ -18,4 +18,4 @@
 
 
 ## dockerの場合
-- `docke-compose run script`
+- `docker-compose run script`
